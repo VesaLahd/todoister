@@ -2,7 +2,7 @@
 	export let query: string = '';
 </script>
 
-<form>
+<form data-sveltekit-keepfocus>
 	<input type="search" name="query" value={query} />
 	<button type="submit">Search</button>
 </form>
